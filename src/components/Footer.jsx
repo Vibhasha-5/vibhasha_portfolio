@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion'
-import cuteBot from '../assets/cute-bot.gif'
 
 export default function Footer() {
   return (
@@ -8,13 +7,8 @@ export default function Footer() {
         initial={{ opacity:0 }} whileInView={{ opacity:1 }} viewport={{ once:true }}
         className="max-w-7xl mx-auto flex flex-col items-center gap-3"
       >
-        <motion.img
-          src={cuteBot} alt="Bot" className="w-12"
-          animate={{ y:[0,-8,0] }}
-          transition={{ repeat:Infinity, duration:2.5, ease:'easeInOut' }}
-        />
         <p className="font-heading text-base text-black dark:text-white">
-          &copy; 2026 Vibhasha Nagvekar — made with code and coffee
+          &copy; Vibhasha Nagvekar — All rights reserved.
         </p>
         <p className="text-sm text-gray-500 dark:text-slate-400 italic">
           "Securing the digital world, one line of code at a time"

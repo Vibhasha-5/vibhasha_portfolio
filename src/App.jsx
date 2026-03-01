@@ -9,6 +9,7 @@ import Contributions from './components/Contributions'
 import Certifications from './components/Certifications'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import CustomCursor from './components/CustomCursor'
 
 function App() {
   const [darkMode, setDarkMode] = useState(false)
@@ -29,6 +30,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-pastel-pink via-pastel-blue to-pastel-purple dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 transition-all duration-500">
+      <CustomCursor />
       <div className="bg-orb bg-orb-1" />
       <div className="bg-orb bg-orb-2" />
       <div className="bg-orb bg-orb-3" />
