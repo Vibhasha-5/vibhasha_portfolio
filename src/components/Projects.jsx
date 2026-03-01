@@ -17,7 +17,7 @@ const projects = [
     description:'Machine-learning web app recommending government schemes for individuals with disabilities — 96% accuracy. Built REST APIs with Express.js and a React/MongoDB stack.',
     tech:['Python','React','Express.js','MongoDB','ML'],
     date:'May 2025',
-    github:'https://github.com/Vibhasha-5',
+    github:'https://github.com/Vibhasha-5/YojnaSeva',
     color:'from-pastel-pink to-pink-200',
     visual: null,
   },
@@ -26,7 +26,7 @@ const projects = [
     description:'Python-based network scanner using Nmap for host discovery, port scanning, and service version detection. Automated identification of insecure services.',
     tech:['Python','Nmap','Docker','Security'],
     date:'Dec 2025',
-    github:'https://github.com/Vibhasha-5',
+    github:'https://github.com/Vibhasha-5/Local_Vulnerability_Scanner',
     color:'from-pastel-blue to-blue-200',
     visual: securityGif,
   },
@@ -35,7 +35,7 @@ const projects = [
     description:'Deployed OWASP Juice Shop via Docker and ran controlled pen-tests against OWASP Top 10. Custom Python automation scripts for security assessment.',
     tech:['Python','Docker','OWASP','VAPT'],
     date:'Apr 2025',
-    github:'https://github.com/Vibhasha-5',
+    github:'https://github.com/Vibhasha-5/Webapp_Pentest_Lab',
     color:'from-pastel-purple to-purple-200',
     visual: null,
   },
@@ -44,19 +44,18 @@ const projects = [
     description:'TF-IDF + Logistic Regression on 80K+ emails. Deployed via Streamlit with a secured Flask REST API.',
     tech:['Python','ML','Flask','Streamlit'],
     date:'Aug 2025',
-    github:'https://github.com/Vibhasha-5',
+    github:'https://github.com/Vibhasha-5/AI-Phishing_Email_Detector',
     color:'from-pastel-green to-green-200',
     visual: null,
   },
-  // ── Paste new projects below ─────────────────────────────────
-  // { title:'', description:'', tech:[], date:'', github:'https://github.com/Vibhasha-5/', color:'from-pastel-yellow to-yellow-200', visual:null },
+  
 ]
 
 // Upcoming / in-progress work — shown below the main grid
 const upcoming = [
-  { title:'Intrusion Detection System', status:'In Progress', eta:'Mar 2026', tech:['Python','ML','Networking'] },
-  { title:'Portfolio v3 with CMS',      status:'Planning',    eta:'Q2 2026',  tech:['React','Node.js','MongoDB'] },
-  { title:'CTF Writeup Blog',           status:'Planning',    eta:'2026',     tech:['Next.js','Markdown','Vercel'] },
+  { title:'AuthDoc', status:'In Progress', eta:'Mar 2026', tech:['Node.js','MongoDB','WebSockets'] },
+  { title:'JD Resume Analyzer', status:'Planning',    eta:'2026',  tech:['Python','JSON','Pattern Matching'] },
+  { title:'Secret API Key Detector', status:'Planning',    eta:'2026', tech:['Python','DevSecOps','AWS Keys'] },
 ]
 // ════════════════════════════════════════════════════════════════
 

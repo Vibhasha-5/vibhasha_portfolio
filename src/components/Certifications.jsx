@@ -14,7 +14,7 @@ const certifications = [
 
 const upcoming = [
   { title:'CompTIA Security+', note:'Preparing — 2026' },
-  { title:'CEH — Certified Ethical Hacker', note:'Planned — 2026' },
+  { title:'CEH — Certified Ethical Hacker', note:'Planned — 2027' },
 ]
 
 export default function Certifications() {

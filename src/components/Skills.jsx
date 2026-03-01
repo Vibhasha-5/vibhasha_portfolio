@@ -22,10 +22,10 @@ const categories = [
 ]
 
 const learning = [
-  { skill:'Rust',       context:'Systems programming',       color:'text-orange-500' },
-  { skill:'Go',         context:'Backend microservices',     color:'text-accent-blue' },
+  { skill:'Solidity',       context:'Smart Contracts',       color:'text-orange-500' },
+  { skill:'API Security',     context:'Safeguarding data in web applications',     color:'text-accent-blue' },
   { skill:'AWS',        context:'Cloud infrastructure',      color:'text-yellow-500 dark:text-yellow-400' },
-  { skill:'Kubernetes', context:'Container orchestration',   color:'text-blue-600 dark:text-blue-400' },
+  { skill:'LLMs', context:'Building AI Agents',   color:'text-blue-600 dark:text-blue-400' },
 ]
 
 export default function Skills() {
